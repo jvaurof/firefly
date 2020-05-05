@@ -52,7 +52,7 @@ Algoritmo desenvolvido como um dos requisitos do mestrado em computação aplica
     Caso o arquivo for modificado será necessário transpilar o código novamente executando o comando
     
     ```
-    yarn biuld
+    yarn build
     ```
     
 ## Observações
