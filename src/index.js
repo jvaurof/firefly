@@ -38,7 +38,7 @@ let flights = 1
 const lineChart = getLineChart()
 
 do {
-  bestFireFly = fly()
+  const bestFireFly = fly()
 
   lineChart.labels.push(flights)
   lineChart.data.push(bestFireFly)
@@ -155,8 +155,8 @@ function getLineChart() {
   })
 
   return {
-    labels: lineChart.data.labels,
-    data: lineChart.data.datasets[0].data
+    labels: chart.data.labels,
+    data: chart.data.datasets[0].data
   }
 }
 
