@@ -1,0 +1,24 @@
+{
+  "name": "firefly",
+  "version": "1.0.0",
+  "description": "aplicação do algoritmo colônia de vagalumes",
+  "main": "src/main.js",
+  "repository": "https://github.com/jvaurof/firefly.git",
+  "author": "jvaurof",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack --mode development"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.3"
+  }
+}
